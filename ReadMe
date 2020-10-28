@@ -1,1 +1,14 @@
-This is read me file
+This file provides general information of project.
+
+How to create a cpp project using git and eclipse
+  create a new repository (eg: DESIGN_PATTERNS here) on git.
+  This new repository gets created with an ".git" URI 
+  Now goto eclipse : File>Import>Project from Git>Clone URI, provide all info here about URI and login credentials
+  Create project using "General Project" Option, Now you must be having your new repository in eclipse
+  Right click new Repository > New > Convert to c/cpp project (Add c/cpp Nature)
+  In New pop-up select "Executable" with MingW compiler 
+  Now you will see few modification in your newly created project
+  Now Create submodules like New > Source Folder 
+  New > Source File, Write down one main function to start with, Build Project and Check if it runs.
+  
+  
